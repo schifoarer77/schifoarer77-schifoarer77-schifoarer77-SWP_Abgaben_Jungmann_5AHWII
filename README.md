@@ -4,16 +4,14 @@
 > 
 > ◼ **Aufgabe Programmiere Lottoziehung als Methode:**
 >
-> random.getrand()
+>> random.getrand()
 > 
-> Algorithmus zum Zufallszahlenziehen muss so programmiert sein, dass keine
-Zufallszahl zweimal gezogen werden kann.
+>> Algorithmus zum Zufallszahlenziehen muss so programmiert sein, dass keine Zufallszahl zweimal gezogen werden kann.
 > 
-> Das heisst, wenn Sie alle 45 Zahlen ziehen müssten, würden Sie den Zufallszahlengenerator nur 45 mal benutzen dürfen.
->> Ziehe die sechs Zahlen und gib Sie am Bildschirm aus
-
->> Erzeuge eine Methode um die Bestellung von einem Kunden 
+>>> Das heisst, wenn Sie alle 45 Zahlen ziehen müssten, würden Sie den Zufallszahlengenerator nur 45 mal benutzen dürfen.
 >
-> 🏁 **Fertigstellung 13.12.2021**
+>>> Ziehe die sechs Zahlen und gib Sie am Bildschirm aus
+>
+> 🏁 **Fertigstellung 05.10.2023**
 >
 ________________________________________________________________
