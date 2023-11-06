@@ -58,7 +58,7 @@ def check_combination(cards, dic):
 #Führt eine Testreihe durch, um die Wahrscheinlichkeiten verschiedener Kombinationen zu ermitteln.
 #   Sie erstellt ein Dictionary (propability), das die Wahrscheinlichkeiten speichert
 #   und erstellt schließlich ein Tortendiagramm (Pie-Chart) mithilfe von Matplotlib,
-#   um die Ergebnisse anzuzeigen.
+#   um die Ergebnisse anzuzeigen. 
 def execute_testing(count=1):
     dic = {
         "Royal Flush": 0,
