@@ -39,3 +39,50 @@ Gesamtspieleanzahl
 > 🏁 **Fertigstellung 09.11.2023**
 >
 ________________________________________________________________
+
+
+
+
+
+https://bigbangtheory.fandom.com/de/wiki/Stein,_Papier,_Schere,_Echse,_Spock
+http://www.samkass.com/theories/RPSSL.html
+
+1) Als Terminal-Spiel umsetzen
+2) Spielmodi COMP vs PLAYER
+3) zähle wer wie oft gewonnen
+4) zähle alle gewählte Symbole
+5) überlege wie die Daten dauerhaft gespeichert werden könnten
+6) biete ein Menü an Spielen, Statistik
+
+TIP:
+
+0,1,2,3,4
+
+0->2 or 0->4
+1->3 or 1->0
+2->4 or 2->1
+3->0 or 3->2
+4->1 or 4->3
+
+if (pid+2)%5 == cid or (pid-1)%5 == cid:
+	return True
+
+Erweiterung KW08 2024:
+======================
+- gesammelte Daten der von den Spielern gewählte Symbolanzahl zu einem Webserver übertragen und in eine SQLite DB speichern
+
+senden:
+import requests
+
+url = 'http://url.com'
+query = {'field': value}
+res = requests.post(url, data=query)
+print(res.text)
+
+empfangen:
+https://sentry.io/answers/flask-getting-post-data/
+
+sqlite:
+https://www.ionos.at/digitalguide/websites/web-entwicklung/sqlite3-python/
+
+benutze venv, config files, alles ins github laden....
