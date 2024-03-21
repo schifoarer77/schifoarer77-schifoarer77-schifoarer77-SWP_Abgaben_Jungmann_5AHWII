@@ -41,7 +41,7 @@ Gesamtspieleanzahl
 ________________________________________________________________
 
 
-
+SCHERE STEIN PAPIER
 
 
 https://bigbangtheory.fandom.com/de/wiki/Stein,_Papier,_Schere,_Echse,_Spock
@@ -79,6 +79,29 @@ query = {'field': value}
 res = requests.post(url, data=query)
 print(res.text)
 
+
+
+---------------------------------------
+
+LINKEDLIST
+
+
+Programmiere mit Python, die einfach verkettete Liste als Datenstruktur.
+
+Folgende Anforderungen sind gegeben:
+- Datenstruktur als Objekt instanzierbar
+- Ganzahl-werte als Werte der Datenstruktur
+- programmiere Methode "am Ende Hinzufügen"
+- programmiere Ausgabe Länge der Datenstruktur
+- Ausgabe aller Elemente
+- main mit exemplarischen (Zufallszahlen) Befüllen
+- iterator protokoll imlementieren
+
+PS: so würde mans in JAVA machen
+https://javabeginners.de/Sammlungen_und_Listen/Einfach_verkettete_Liste.php
+
+ABGABE bis spätestens: 2023.03.13
+GIT!
 empfangen:
 https://sentry.io/answers/flask-getting-post-data/
 
